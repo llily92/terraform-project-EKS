@@ -1,7 +1,8 @@
 terraform {
 backend "s3" {
-bucket = "terraform-class-atakan"
-key = "application/us-east-1/state/dev/infrastructure.tfstate"
+bucket = "terraform-project-backend-2020"
+key = "tower/us-east-1/tools/virginia/tower.tfstate"
 region = "us-east-1"
+dynamodb_table = "terraform-team1"
   }
 }
