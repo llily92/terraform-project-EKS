@@ -1,7 +1,7 @@
 
 
 
-s3_bucket = "terraform-class-atakan"              #Will be used to set backend.tf
+s3_bucket = "terraform-project-backend-2020"              #Will be used to set backend.tf
 vpc_id  = "vpc-0355a0bae5bea4f60"
 subnet1 = "subnet-010340aa70f4cf852"
 subnet2 = "subnet-067d770bdee886c4d"
