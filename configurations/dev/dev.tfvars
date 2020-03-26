@@ -1,5 +1,3 @@
-
-
 s3_bucket = "terraform-project-backend-2020"       #Will be used to set backend.tf
 vpc_id = "vpc-067e5c354ad801e1b"
 subnet1 = "subnet-0b48523db39c61725"
@@ -17,8 +15,6 @@ asg_max_size = "96"
 asg_min_size = "3"
 asg_desired_capacity = "6"
 cluster_version = "1.14"
-
-
 
 
 
