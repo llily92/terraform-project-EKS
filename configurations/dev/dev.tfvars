@@ -1,9 +1,7 @@
 s3_bucket = "terraform-project-backend-2020"       #Will be used to set backend.tf
 vpc_id = "vpc-067e5c354ad801e1b"
-subnet1 = "subnet-0b48523db39c61725"
-subnet2 = "subnet-09de6e4667e821f56"
-subnet3 = "subnet-01f9b14fa9a36dfeb"
 region = "us-east-1"
+
 cluster_name = "cluster"
 environment = "dev"
 s3_folder_project = "application"      #Will be used to set backend.tf
